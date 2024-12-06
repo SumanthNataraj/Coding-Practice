@@ -28,7 +28,6 @@ class IntArray:
     def Print(self, arr):
         for i in arr:
             print(i, end=" ")
-        print()
 
 
 if __name__ == "__main__":
