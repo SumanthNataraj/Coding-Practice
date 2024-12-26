@@ -29,8 +29,7 @@ arr = [0, 1, 2, 0, 1, 2, 0, 1, 2]
 sorted_arr = sort_array(arr)
 print(sorted_arr)  # Output: [0, 0, 0, 1, 1, 1, 2, 2, 2]
 
-# Test the function with an empty array 
-                   
+# Test the function with an empty array  
 arr = []
 sorted_arr = sort_array(arr)
 print(sorted_arr)  # Output: []

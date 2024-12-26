@@ -1,5 +1,5 @@
 """You are given a rectangular matrix, and your task is to return an array while traversing the matrix in spiral form."""
-def spirallyTraverse(self, matrix):
+def spirallyTraverse(matrix):
     
         # Initialize variables and result list  for spiral traversal
         

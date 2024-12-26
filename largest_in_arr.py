@@ -6,38 +6,19 @@ Given an array arr[]. The task is to find the largest element and return it."""
 from typing import List
 
 
-class Solution:
-    def largest(self, arr : List[int]) -> int:
-        # code here
-        arr=sorted(arr)
+
+def largest(arr : List[int]) -> int:
+    # code here
+    arr=sorted(arr)
+    return arr[-1]
+
+# Test the function
+
+arr = [5, 2, 8, 1, 3, 6, 4]
+print(largest(arr)) # Output: 8
+
+arr = [-10, -20, -30, -40, -50]
+
+print(largest(arr)) # Output: -10
         
-        return arr[-1]
-        
 
-
-
-class IntArray:
-
-    def __init__(self) -> None:
-        pass
-
-    def Input(self, n):
-        arr = [int(i) for i in input().strip().split()]  #array input
-        return arr
-
-    def Print(self, arr):
-        for i in arr:
-            print(i, end=" ")
-
-
-if __name__ == "__main__":
-    t = int(input())
-    for _ in range(t):
-
-        arr = list(map(int, input().split()))
-
-        obj = Solution()
-        res = obj.largest(arr)
-
-        print(res)
-        print("~")

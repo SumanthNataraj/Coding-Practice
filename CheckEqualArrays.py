@@ -1,7 +1,7 @@
 """Given two arrays arr1 and arr2 of equal size, the task is to find whether the given arrays are equal. Two arrays are said to be equal if both contain the same set of elements, arrangements (or permutations) of elements may be different though.
 Note: If there are repetitions, then counts of repeated elements must also be the same for two arrays to be equal."""
 
-def check(self, arr1, arr2) -> bool:
+def check( arr1, arr2) -> bool:
         # Sort both arrays and compare them for equality
         a=sorted(arr1)
         b=sorted(arr2)

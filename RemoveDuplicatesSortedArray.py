@@ -5,23 +5,21 @@ Note:
 
 
 
-def remove_duplicate( arr):
-    
-    l = []
-    i = 0
-    for j in range(i+1,len(arr)):
-        if arr[i] != arr[j]:
-            i+=1
-            arr[i] = arr[j]
-    return i+1
-
+def removeDuplicates( arr):
+    seen = set()
+    idx = 0
+    for i in range(len(arr)):
+        if arr[i] not in seen:
+            seen.add(arr[i])
+            arr[idx] = arr[i]
+            idx += 1
+    return idx
 
     
 arr = [ 1 , 2 , 3 , 4 , 1 , 2 , 3 , 4 , 5 ]
     
-ans = remove_duplicate(arr)
-for i in range(ans):
-    print(ans[i], end=" ")
-    print()
-    print("~")
+ans = removeDuplicates(arr)
+
+print(ans, end=" ")
+
 

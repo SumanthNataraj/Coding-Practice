@@ -1,7 +1,7 @@
 """Given an array arr. Your task is to find the minimum and maximum elements in the array.
 
 Note: Return an array that contains two elements the first one will be a minimum element and the second will be a maximum of an array."""
-def get_min_max(self, arr):
+def get_min_max(arr):
         
         a=min(arr)
         b=max(arr)

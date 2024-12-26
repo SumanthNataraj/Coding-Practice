@@ -1,8 +1,6 @@
 """You are given a string s, and your task is to reverse the string."""
-def reverseWord(self, str: str) -> str:
-    
+def reverseWord(str: str) -> str:
         str=str[::-1]
-        
         return str
 
 # Test the function with a sample string

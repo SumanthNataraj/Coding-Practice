@@ -1,5 +1,5 @@
 """Given a number n, determine whether it is a prime number or not. A prime number is a number greater than 1 that has no positive divisors other than 1 and itself."""
-def isPrime(self, n):
+def isPrime(n):
     
         # If n is less than or equal to 1, it is not prime
         if n <= 1:
