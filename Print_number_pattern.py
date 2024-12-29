@@ -29,3 +29,4 @@ def print_pattern(n):
 for i in range(1,5):
     print(print_pattern(i))
     print("--------------------------------")
+
